@@ -20,4 +20,18 @@
 	$ git commit -m "add 3 files."
 	
 5、版本回退
+	$ git log 查看所有的版本、时间线串联
+	$ git log --pretty=oneline（一行显示）
+	$ git reset --hard HEAD^ 回退到上一个版本
+	$ git reset --hard HEAD^^ 回退到上两个版本
+	$ git reset --hard HEAD~100 回退到上100个版本
+	新的版本号消失
+	$ git reset --hard 3628164... 回退到某个具体的版本
+	窗口关闭想取消回退
+	$ git reflog 查看所有的命令
 	
+6、工作区和暂存区
+	工作区——当前文件夹
+	暂存区——.git中的index
+	add命令：文件存到暂存区
+	cmmit命令：文件存到分支
