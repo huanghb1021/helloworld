@@ -14,4 +14,7 @@
 	
 4、版本回退
 	$ git status 查看仓库状态
-	$ git diff readme.txt
+	$ git diff readme.txt 查看作了什么修改
+	$ git add readme.txt
+	$ git status
+	$ git commit -m "add 3 files."
