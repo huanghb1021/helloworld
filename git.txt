@@ -1,13 +1,17 @@
-1¡¢gitµÄ°²×°
+ï»¿1ã€gitçš„å®‰è£…
 	$ git config --global user.name "Your Name"
 	$ git config --global user.email "email@example.com"
 	
-2¡¢´´½¨°æ±¾¿â
+2ã€åˆ›å»ºç‰ˆæœ¬åº“
 	$ mkdir learngit
 	$ cd learngit
 	$ pwd
 	$ git init
 	
-3¡¢°ÑÎÄ¼şÌí¼Óµ½°æ±¾¿â
+3ã€æŠŠæ–‡ä»¶æ·»åŠ åˆ°ç‰ˆæœ¬åº“
 	$ git add readme.txt
-	$ git commit -m "add 3 files."
+	$ git commit -m "add 3 files."(å¯ä»¥addå¤šä¸ªæ–‡ä»¶ä¹‹åï¼Œä¸€æ¬¡æäº¤)
+	
+4ã€ç‰ˆæœ¬å›é€€
+	$ git status æŸ¥çœ‹ä»“åº“çŠ¶æ€
+	$ git diff readme.txt
