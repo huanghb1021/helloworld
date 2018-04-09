@@ -18,3 +18,4 @@
 	$ git add readme.txt
 	$ git status
 	$ git commit -m "add 3 files."
+	啊哈
