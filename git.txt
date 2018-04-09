@@ -12,10 +12,12 @@
 	$ git add readme.txt
 	$ git commit -m "add 3 files."(可以add多个文件之后，一次提交)
 	
-4、版本回退
+4、修改提交
 	$ git status 查看仓库状态
 	$ git diff readme.txt 查看作了什么修改
 	$ git add readme.txt
 	$ git status
 	$ git commit -m "add 3 files."
-	啊哈
+	
+5、版本回退
+	
