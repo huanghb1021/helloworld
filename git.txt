@@ -35,3 +35,30 @@
 	暂存区——.git中的index
 	add命令：文件存到暂存区
 	cmmit命令：文件存到分支
+	
+7、git管理修改
+	git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
+	
+8、撤销修改
+	$ git checkout -- readme.txt 丢弃工作区的修改
+	$ git reset HEAD readme.txt	暂存区的修改撤销掉，重新放回工作区
+	
+9、删除文件
+	$ git rm test.txt
+	$ git commit -m "remove test.txt"
+	or
+	$ git checkout -- test.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
