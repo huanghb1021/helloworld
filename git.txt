@@ -44,10 +44,20 @@
 	$ git reset HEAD readme.txt	暂存区的修改撤销掉，重新放回工作区
 	
 9、删除文件
+	$ rm test.txt
+	$ git checkout -- test.txt
 	$ git rm test.txt
 	$ git commit -m "remove test.txt"
-	or
-	$ git checkout -- test.txt
+	
+10、远程仓库
+	https://github.com/创建账号
+	$ ssh-keygen -t rsa -C "youremail@example.com" 一路回车，生成ssh，key
+	C:\Users\Administrator\.ssh publickey复制到账号
+	
+11、添加远程库
+	添加远程仓库 Create a new repository
+	$ git remote add origin git@github.com:huanghb1021/helloworld 本地仓库与远程仓库关联
+	$ git push -u origin master
 
 
 
