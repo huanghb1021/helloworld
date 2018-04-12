@@ -76,7 +76,7 @@
 	git log --graph 查看分支
 	
 15、分支管理策略
-	aaaaaaaaaaaaaaaa
+	
 
 
 
