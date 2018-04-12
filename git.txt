@@ -82,8 +82,12 @@
 	合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
 	
 16、bug分支
-	do some code 。。。
-	bug comes。。。
+	$ git stash 保存当前工作现场
+	$ git stash list stash列表
+	前提：工作区必须是干净的
+	git stash apply 恢复现场	 =   git stash pop
+	$ git stash apply stash@{0}
+	git stash drop  删除保存
 	
 
 
