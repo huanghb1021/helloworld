@@ -74,7 +74,11 @@
 14、解决冲突
 	$ git merge feature1 有冲突，解决冲突再提交
 	git log --graph 查看分支
-	mastrt。。。。。。。。。
+	
+15、分支管理策略
+	
+
+
 
 
 
