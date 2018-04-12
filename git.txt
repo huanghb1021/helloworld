@@ -51,13 +51,13 @@
 	
 10、远程仓库
 	https://github.com/创建账号
-	$ ssh-keygen -t rsa -C "youremail@example.com" 一路回车，生成ssh，key
+	$ ssh-keygen -t rsa -C "huanghb@fuiou.com" 一路回车，生成ssh，key
 	C:\Users\Administrator\.ssh publickey复制到账号
 	
 11、添加远程库
 	添加远程仓库 Create a new repository
 	$ git remote add origin git@github.com:huanghb1021/helloworld本地仓库与远程仓库关联
-	$ git push -u origin master此句执行报错 解决：git pull origin master ----allow-unrelated-histories
+	$ git push -u origin master此句执行报错 解决：git pull origin master --allow-unrelated-histories
 	此后
 	$ git push origin master
 	
@@ -69,11 +69,12 @@
 							$ git checkout dev	切换分支
 	$ git branch 查看分支
 	$ git merge dev	把dev分支合并到当前分支上
-	$ git branch -d dev 删除dev分支
+	$ git branch -d dev 删除dev分支（未合并将删除失败）
+	$ git branch -D dev 强制删除分支
 	
 14、解决冲突
 	$ git merge feature1 有冲突，解决冲突再提交
-	git log --graph 查看分支
+	$ git log --graph 查看分支
 	
 15、分支管理策略
 	合并Fast forward模式启用和停用的区别
@@ -88,6 +89,11 @@
 	git stash apply 恢复现场	 =   git stash pop
 	$ git stash apply stash@{0}
 	git stash drop  删除保存
+	
+17、多人协作
+	$ git remote 查看远程库信息
+	$ git remote -v 查看远程库信息（详细-显示了可以抓取和推送的origin的地址）
+	
 	
 
 
