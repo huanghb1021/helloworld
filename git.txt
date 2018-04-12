@@ -77,8 +77,13 @@
 	
 15、分支管理策略
 	合并Fast forward模式启用和停用的区别
-	sssssssssss
-	eeeeee
+	$ git merge --no-ff -m "merge with no-ff" dev（--no-ff禁用fast forward模式）
+	$ git log --graph --pretty=oneline --abbrev-commit 可以看到分支历史，Fast forward模式看不到
+	合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
+	
+16、bug分支
+	
+	
 
 
 
