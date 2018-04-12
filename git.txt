@@ -72,9 +72,9 @@
 	$ git branch -d dev 删除dev分支
 	
 14、解决冲突
-	bbbbbb
-	
-
+	$ git merge feature1 有冲突，解决冲突再提交
+	git log --graph 查看分支
+	mastrt。。。。。。。。。
 
 
 
