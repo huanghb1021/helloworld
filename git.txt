@@ -92,9 +92,9 @@
 	
 17、多人协作
 	$ git remote 查看远程库信息
-	$ git remote -v 查看远程库信息（详细-显示了可以抓取和推送的origin的地址）
+	$ git remote -v 查看远程库信息（详细）
 	
-	
+
 
 
 
