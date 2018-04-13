@@ -93,6 +93,7 @@
 17、多人协作
 	$ git remote 查看远程库信息
 	$ git remote -v 查看远程库信息（详细）
+	$ git checkout -b dev origin/dev
 	
 
 
